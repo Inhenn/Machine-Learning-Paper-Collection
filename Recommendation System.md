@@ -20,3 +20,17 @@
 &nbsp; &nbsp; &nbsp; &nbsp; Common latent space with locality added
         
 &nbsp; &nbsp; &nbsp; &nbsp; Easy to follow optimization process
+
+
+4. [Deep Tensor Factorization for Multi-Criteria Recommender Systems](https://ieeexplore.ieee.org/document/9005677)
+
+&nbsp; &nbsp; &nbsp; &nbsp; Standard tensor factorization ==> 3 latent matrices  
+
+&nbsp; &nbsp; &nbsp; &nbsp; Use stacked denoising autoencoder to get the latent matrix for user and item
+
+&nbsp; &nbsp; &nbsp; &nbsp; Claim to handle sparse problem in tensor factorization by using autoencoder to reduce dimension
+
+
+
+
+
