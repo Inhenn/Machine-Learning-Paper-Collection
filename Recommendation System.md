@@ -4,7 +4,7 @@
 
 1. [Multiverse Recommendation: N-dimensional Tensor Factorization for Context-aware Collaborative Filtering](https://xamat.github.io/pubs/karatzoglu-recsys-2010.pdf)
 
-&nbsp; &nbsp; &nbsp; &nbsp; HOSVD decomposition, high dimension factorization, central tensor 
+&nbsp; &nbsp; &nbsp; &nbsp; HOSVD decomposition, high dimension factorization with a central tensor, but it is hard to make explaination about the central tensor.
 
 2. [Relational Learning via Collective Matrix Factorization](http://www.cs.cmu.edu/~ggordon/singh-gordon-kdd-factorization.pdf)
 
