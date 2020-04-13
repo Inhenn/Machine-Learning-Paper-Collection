@@ -39,7 +39,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; AUGRU attentional update gate GRU for interest evolution
 
-&nbsp; &nbsp; &nbsp; &nbsp; Create "attention weight" based on last behavior and current behavior and evolve hidden state in &nbsp; &nbsp; &nbsp; &nbsp; GRU
+&nbsp; &nbsp; &nbsp; &nbsp; Create "attention weight" based on last behavior and current behavior and evolve hidden state in GRU
 
 &nbsp; &nbsp; &nbsp; &nbsp; Able to handle user historical behavior, Item list, user profile, context at the same time
 
