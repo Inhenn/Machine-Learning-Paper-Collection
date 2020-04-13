@@ -60,6 +60,10 @@
 &nbsp; &nbsp; &nbsp; &nbsp; Idea in cold start testing: random select half user(item) as new user(item) to test model performance in cold start
 
 
+## Survey
+
+1. [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
+
 
 
 
