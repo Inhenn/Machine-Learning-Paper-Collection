@@ -57,9 +57,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; Closed form solution
 
-&nbsp; &nbsp; &nbsp; &nbsp; Idea in cold start testing: random select half user(or item) as new user(or item) to test model performance in cold 
-
-&nbsp; &nbsp; &nbsp; &nbsp; start case
+&nbsp; &nbsp; &nbsp; &nbsp; Idea in cold start testing: random select half user(item) as new user(item) to test model performance in cold start
 
 
 
