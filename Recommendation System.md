@@ -33,6 +33,13 @@
 &nbsp; &nbsp; &nbsp; &nbsp; Claim to handle sparse problem in tensor factorization by using autoencoder to reduce dimension
 
 
+## Deep Learning Based
 
+[Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672.pdf)
 
+&nbsp; &nbsp; &nbsp; &nbsp; AUGRU attentional update gate GRU for interest evolution
+
+&nbsp; &nbsp; &nbsp; &nbsp; Create "attention weight" based on last behavior and current behavior and evolve hidden state in &nbsp; &nbsp; &nbsp; &nbsp; GRU
+
+&nbsp; &nbsp; &nbsp; &nbsp; Able to handle user historical behavior, Item list, user profile, context at the same time
 
