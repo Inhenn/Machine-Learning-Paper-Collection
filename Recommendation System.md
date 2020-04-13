@@ -23,6 +23,7 @@
         
 &nbsp; &nbsp; &nbsp; &nbsp; Easy to follow optimization process
 
+&nbsp; &nbsp; &nbsp; &nbsp; An extension of 2.
 
 4. [Deep Tensor Factorization for Multi-Criteria Recommender Systems](https://ieeexplore.ieee.org/document/9005677)
 
@@ -35,7 +36,7 @@
 
 ## Deep Learning Based
 
-[Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672.pdf)
+1. [Deep Interest Evolution Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1809.03672.pdf)
 
 &nbsp; &nbsp; &nbsp; &nbsp; AUGRU attentional update gate GRU for interest evolution
 
