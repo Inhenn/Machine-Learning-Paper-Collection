@@ -44,3 +44,22 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; Able to handle user historical behavior, Item list, user profile, context at the same time
 
+
+## Regression Based
+
+1. [Pairwise Preference Regression for Cold-start Recommendation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.211.9762&rep=rep1&type=pdf)
+
+&nbsp; &nbsp; &nbsp; &nbsp; Used normalized Discounted Cumulative Gain (𝑛𝐷𝐶𝐺) as evaluation matrix for ranking
+
+&nbsp; &nbsp; &nbsp; &nbsp; Pairwise loss designed for multiple items recommended to the same user
+
+&nbsp; &nbsp; &nbsp; &nbsp; Recommendation is evaluated in terms of the item ranking for a user in the case that each user needs a recommendation
+
+&nbsp; &nbsp; &nbsp; &nbsp; Closed form solution
+
+&nbsp; &nbsp; &nbsp; &nbsp; Idea in cold start testing: random select half user(or item) as new user(or item) to test model performance in cold start case
+
+
+
+
+
