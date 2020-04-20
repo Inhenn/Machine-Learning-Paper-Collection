@@ -59,6 +59,13 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; Idea in cold start testing: random select half user(item) as new user(item) to test model performance in cold start
 
+## Reinforcement Learning
+
+1. [Generative Adversarial User Model for RL Based Recommendation System](https://arxiv.org/pdf/1812.10613v3.pdf)
+
+&nbsp; &nbsp; &nbsp; &nbsp; Fine designed reward function for the recommendation, evolving rewarding function
+
+&nbsp; &nbsp; &nbsp; &nbsp; User history as state, weighted/truncated M-step history can also be used
 
 ## Survey
 
