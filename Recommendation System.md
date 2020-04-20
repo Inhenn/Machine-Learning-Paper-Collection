@@ -63,9 +63,15 @@
 
 1. [Generative Adversarial User Model for RL Based Recommendation System](https://arxiv.org/pdf/1812.10613v3.pdf)
 
-&nbsp; &nbsp; &nbsp; &nbsp; Fine designed reward function for the recommendation, evolving rewarding function
+&nbsp; &nbsp; &nbsp; &nbsp; Fine designed reward function for the recommendation, Generative Adversarial Training to mimic rewarding function
 
 &nbsp; &nbsp; &nbsp; &nbsp; User history as state, weighted/truncated M-step history can also be used
+
+&nbsp; &nbsp; &nbsp; &nbsp; Cascading Q-learning (introduced by this paper), small modification in Q-learning
+
+&nbsp; &nbsp; &nbsp; &nbsp; Neuralnet structure for Q value
+
+&nbsp; &nbsp; &nbsp; &nbsp; Adding a GAN to estimate reward offers more flexibility to the reward function of a user
 
 ## Survey
 
