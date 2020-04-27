@@ -73,6 +73,22 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; Adding a GAN to estimate reward offers more flexibility to the reward function of a user
 
+## Evaluation Matrix
+
+1. [Beyond Optimizing for Clicks: Incorporating Editorial Values in News Recommendation](https://arxiv.org/pdf/2004.09980.pdf)
+
+&nbsp; &nbsp; &nbsp; &nbsp; Recommendation system for news focusing on 4 matrices in result evaluation: diversity, coverage, serendipity, and dynamism
+
+&nbsp; &nbsp; &nbsp; &nbsp; Diversity: Inverse of the simmlarity of recommended item. Based on similarity of features
+
+&nbsp; &nbsp; &nbsp; &nbsp; Coverage: The proportion of recommended items over all items
+
+&nbsp; &nbsp; &nbsp; &nbsp; Serendipity: Inverse of simmlarity of recommended item v.s. user history
+
+&nbsp; &nbsp; &nbsp; &nbsp; Dynamism: The recency of timestamp for each recommended items
+
+&nbsp; &nbsp; &nbsp; &nbsp; Item simmlarity is useful in the evaluation. Actually most of such matrices can be added as a loss function in the recommendation algorithm, which is not fully discussed in the paper
+
 ## Survey
 
 1. [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/pdf/1707.07435.pdf)
