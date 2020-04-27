@@ -44,6 +44,15 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; Able to handle user historical behavior, Item list, user profile, context at the same time
 
+2. [BERT4Rec: Sequential Recommendation with Bidirectional
+Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
+
+&nbsp; &nbsp; &nbsp; &nbsp; BERT for recommendation system, very similar to BERT in language modeling 
+
+&nbsp; &nbsp; &nbsp; &nbsp; Claim to be state of the art recommendation algorithm 
+
+&nbsp; &nbsp; &nbsp; &nbsp; Trained positional embedding
+
 
 ## Regression Based
 
