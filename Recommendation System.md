@@ -53,6 +53,11 @@ Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
 
 &nbsp; &nbsp; &nbsp; &nbsp; Trained positional embedding
 
+
+3. [Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding (http://www.sfu.ca/~jiaxit/resources/wsdm18caser.pdf)
+
+&nbsp; &nbsp; &nbsp; &nbsp Deep learning for Sequential Recommendation. Capable of recommending items in different categories.
+
 ## Online Learning
 
 1. [How to Retrain Recommender System? A Sequential Meta-Learning Method](https://arxiv.org/pdf/2005.13258.pdf) 
