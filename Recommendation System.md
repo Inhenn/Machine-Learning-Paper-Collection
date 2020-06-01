@@ -53,6 +53,9 @@ Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
 
 &nbsp; &nbsp; &nbsp; &nbsp; Trained positional embedding
 
+## Rule Based
+
+https://arxiv.org/ftp/arxiv/papers/2005/2005.14026.pdf
 
 ## Regression Based
 
