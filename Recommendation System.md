@@ -53,6 +53,14 @@ Encoder Representations from Transformer](https://arxiv.org/pdf/1904.06690.pdf)
 
 &nbsp; &nbsp; &nbsp; &nbsp; Trained positional embedding
 
+## Online Learning
+
+1. [How to Retrain Recommender System? A Sequential Meta-Learning Method](https://arxiv.org/pdf/2005.13258.pdf) 
+
+&nbsp; &nbsp; &nbsp; &nbsp; New way to incorperate new data. Use NN (CNN) to model the update from W_{t-1} to W_{t}
+
+&nbsp; &nbsp; &nbsp; &nbsp; However, the transfer model itself is hard to design and optimize. It also does not account for second order time dependency.
+
 ## Rule Based
 
 https://arxiv.org/ftp/arxiv/papers/2005/2005.14026.pdf
