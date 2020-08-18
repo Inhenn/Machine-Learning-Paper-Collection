@@ -126,8 +126,24 @@ for Effective Recommendation](https://arxiv.org/pdf/2005.12002.pdf)
 
 2. [Unifying Knowledge Graph Learning and Recommendation:
 Towards a Better Understanding of User Preferences](https://arxiv.org/pdf/1902.06236.pdf)
+> Translation-based model, which exploits the implicit preference<br>
+> Joint modeling item recommendation and KG completion<br>
+> Use TransH for KG Completion, find embedding such that eh + r ≈ et in the projected space
+> Model global preference vectors
+![](/KTUP.png)
 
+3. [BasConv: Aggregating Heterogeneous Interactions for Basket Recommendation with Graph Convolutional Neural Network](https://arxiv.org/pdf/2001.09900.pdf)
 
+> Item in the basket recommendation<br>
+> Use different aggregators for each type of entity -- another way is to introduce knowledge graph<br>
+> Add a d-dim embedding to each entity<br>
+> Use Conv Graph NN to train the embedding of user, item, basket then use the embedding to produce a score for each item in the targeted user basket. <br>
+> Embedding aggregation for l layers can be view as l steps CNN, more steps capture more global informtion. In the end, all l layers output are concatnated and used to predict the target. <br>
+> Back and forth aggregation<br>
+![](/Basconv.png)
+
+4. [UBER-GNN: A User-Based Embeddings Recommendation based
+on Graph Neural Networks](https://arxiv.org/pdf/2008.02546.pdf)
 
 
 ## Evaluation Matrix
