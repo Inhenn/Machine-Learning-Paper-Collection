@@ -142,8 +142,26 @@ Towards a Better Understanding of User Preferences](https://arxiv.org/pdf/1902.0
 > Back and forth aggregation<br>
 ![](/Basconv.png)
 
-4. [UBER-GNN: A User-Based Embeddings Recommendation based
-on Graph Neural Networks](https://arxiv.org/pdf/2008.02546.pdf)
+4. [Graph Factorization Machines for Cross-Domain Recommendation](https://arxiv.org/pdf/2007.05911.pdf)
+> L-layer aggregation to get massages from neighbor nodes<br>
+> Make predictions based on learned user & item embedding <br>
+> Personally, this looks more like pure GNN then FM to me, I did not see any explicit FM component in it <br>
+> Cross domain looks like multi-task learning to me, only with some shared weights. Nothing new or interesting<br>
+### Key Points
+>* Negative sampling in each epoch, add the variance into the training data, which reduces model's overfitting.
+
+5. [KGAT: Knowledge Graph Attention Network for
+Recommendation](https://arxiv.org/pdf/1905.07854.pdf) _(A good paper for graph Recommendation)_
+### Problem Addressed 
+>* Adding knowledge graph, additional high order relations increase the data & model size and sparsity dramatically
+>* Relationships are contributing unequally to the task
+
+> Use TransR in embedding: W1*eh+er=W2*et to embed triplets. And use pairwise ranking loss to optimize<br>
+> Neighbor information propagation (aggregation)<br>
+> Applied attention mechanism in propagation
+> Embedding representation product as prediction score
+> Alternatively optimize two loss functions 
+![](/GKAT1.png)
 
 
 ## Evaluation Matrix
