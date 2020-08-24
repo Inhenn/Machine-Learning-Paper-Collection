@@ -158,10 +158,31 @@ Recommendation](https://arxiv.org/pdf/1905.07854.pdf) _(A good paper for graph R
 
 > Use TransR in embedding: W1*eh+er=W2*et to embed triplets. And use pairwise ranking loss to optimize<br>
 > Neighbor information propagation (aggregation)<br>
-> Applied attention mechanism in propagation
-> Embedding representation product as prediction score
-> Alternatively optimize two loss functions 
+> Applied attention mechanism in propagation<br>
+> Embedding representation product as prediction score<br>
+> Alternatively optimize two loss functions<br>
 ![](/GKAT1.png)
+
+
+6. [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf)
+### Problem Addressed 
+>* Social relationship is considered in item recommendation
+>* entity relationships have various strength, the method considers heterogeneous strengths of social relations mathematically
+
+> Item Aggregation & User Aggregation seperately<br>
+> Opinion Embedding -> Embed scores/ratings (as a relation), concat relation embedding and item embedding and perform MLP on the concated vector<br>
+> Use attention in aggregation: attention is calculated by concatenating user embedding and processed item embedding (with option embedding aggregated) and performing a MLP on the concated vector<br>
+> Use aggregated user vector in social relation aggregation (also called latent factor), and perform the same attention mechanism <br>
+> Combine social agg and user agg together and iteratively update the latent vector for user
+> Use the concatenated vector of user & item latent vector to predict the connection between user and item
+
+![](/GNNSR.png)
+
+#### Key Points
+>* Random initialize embedding -- no one hot encoding
+>* Use RMSprop rather than vanilla SGD
+
+
 
 
 ## Evaluation Matrix
